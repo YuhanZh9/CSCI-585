@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="customPolygonStyle">
+  <PolyStyle>
+    <color>7f0000ff</color>
+    <colorMode>normal</colorMode>
+    <outline>1</outline>
+  </PolyStyle>
+  <LineStyle>
+    <color>7f0000ff</color>
+    <width>5</width>
+  </LineStyle>
+</Style>
+<Style id="line">
+  <LineStyle>
+    <color>ffffffff</color>
+    <width>2</width>
+  </LineStyle>
+</Style>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.3055501096387,34.02173206682616</coordinates></Point>
+</Placemark>
+<Folder>
+  <name>Libraries</name>
+  <Placemark><name>SSL</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28882050624088,34.019959049367685</coordinates></Point>
+  </Placemark>
+  <Placemark><name>DML</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28423255518909,34.020314583203294</coordinates></Point>
+  </Placemark>
+  <Placemark><name>LVL</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28330261891662,34.02158009334931</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder>
+  <name>Departments</name>
+  <Placemark><name>ACC</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28583589766015,34.01920988227626</coordinates></Point>
+  </Placemark>
+  <Placemark><name>TSM</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28537212695767,34.02279955803791</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Viterbi</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28894298534682,34.020834253201365</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder>
+  <name>Eateries</name>
+  <Placemark><name>Seeds</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28601543802608,34.02055433954496</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Tommy's</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28622452993112,34.01979425395981</coordinates></Point>
+  </Placemark>
+  <Placemark><name>Everbody's</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28221336283924,34.02129577584927</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder>
+  <name>Fountains</name>
+  <Placemark><name>Architecture</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28782244681008,34.018567814010225</coordinates></Point>
+  </Placemark>
+  <Placemark><name>MuddHall</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.28637803915728,34.01883089452425</coordinates></Point>
+  </Placemark>
+  <Placemark><name>HanhPlaza</name>
+    <styleUrl>#z1</styleUrl><Point><coordinates>-118.2850943241813,34.0202156532466</coordinates></Point>
+  </Placemark>
+</Folder>
+
+<Placemark>
+  <name>Convex Hull</name>
+  <styleUrl>#customPolygonStyle</styleUrl>
+  <Polygon>
+    <outerBoundaryIs>
+      <LinearRing>
+        <coordinates>
+          -118.28782244681008,34.018567814010225 -118.3055501096387,34.02173206682616 -118.28537212695767,34.02279955803791 -118.28221336283924,34.02129577584927 -118.28637803915728,34.01883089452425 -118.28782244681008,34.018567814010225
+        </coordinates>
+      </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+</Placemark>
+
+<Placemark>
+  <name>Neighbor 1</name>
+  <styleUrl>#line</styleUrl>
+  <LineString>
+    <coordinates>
+      -118.3055501096387,34.02173206682616 -118.28894298534682,34.020834253201365
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+  <name>Neighbor 2</name>
+  <styleUrl>#line</styleUrl>
+  <LineString>
+    <coordinates>
+      -118.3055501096387,34.02173206682616 -118.28882050624088,34.019959049367685
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+  <name>Neighbor 3</name>
+  <styleUrl>#line</styleUrl>
+  <LineString>
+    <coordinates>
+      -118.3055501096387,34.02173206682616 -118.28782244681008,34.018567814010225
+    </coordinates>
+  </LineString>
+</Placemark>
+
+<Placemark>
+  <name>Neighbor 4</name>
+  <styleUrl>#line</styleUrl>
+  <LineString>
+    <coordinates>
+      -118.3055501096387,34.02173206682616 -118.28637803915728,34.01883089452425
+    </coordinates>
+  </LineString>
+</Placemark>
+
+
+</Document></kml>
